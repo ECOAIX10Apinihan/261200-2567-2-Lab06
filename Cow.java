@@ -1,4 +1,9 @@
 public class Cow extends Animal {
+    String name;
+
+    public Cow(String name) {
+        this.name = name;
+    }
     @Override
     void sound() {
         System.out.println("Mooooooooooooooo");
@@ -20,8 +25,8 @@ public class Cow extends Animal {
         System.out.println("The cow is eating.");
     }
 
-    // @Override
-    // public String toString() {
-    //     return "Cow";
-    // }
+    @Override
+    public String toString() {
+        return this.name;
+    }
 }
