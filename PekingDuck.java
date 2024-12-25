@@ -7,7 +7,7 @@ public class   PekingDuck extends Duck{
         System.out.println(this + " splash splash " + animal);
     }
     public void pekingDuck(){
-        System.out.println(" I am a Beijing Duck ");
+        System.out.println(" I am a PekingDuck Duck ");
     }
     
 }
