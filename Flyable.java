@@ -1,4 +1,4 @@
 interface Flyable{
-    void fly();
-    void glide();
+    abstract void fly();
+    abstract void glide();
 }

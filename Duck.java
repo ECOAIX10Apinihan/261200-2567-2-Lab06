@@ -6,16 +6,14 @@ public class Duck extends Animal implements Flyable {
     }
 
     @Override
-    public void sound() {
-        System.out.println("quack quack");
-    }
-
-    public void fly() {
+    public void fly(){
         System.out.println("prub prub");
     }
-
-    public void glide() {
+    public void glide(){
         System.out.println("weeeee weeeeee");
+    }
+    public void sound() {
+        System.out.println("quack quack");
     }
 
     public void clean(Animal animal) {
