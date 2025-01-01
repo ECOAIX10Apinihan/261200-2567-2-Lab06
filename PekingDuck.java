@@ -9,5 +9,7 @@ public class   PekingDuck extends Duck{
     public void pekingDuck(){
         System.out.println(" I am a PekingDuck Duck ");
     }
-    
+    public void beCrispy(){
+        System.out.println(" อาหร่อยมาก ");
+    }
 }

@@ -3,14 +3,23 @@ public class Lab06 {
         Cow sleepCow = new Cow("Sleepy Cow");
         Duck firstDuck = new Duck("Donald Duck");
         Duck secondDuck = new Duck("Daisy Duck");
-        Owl firsOwl = new Owl("Eiei Owl");
-        Pig firsPig = new Pig("Mudeng Pig");
+        Owl firstOwl = new Owl("Eiei Owl");
+        Pig firstPig = new Pig("Mudeng Pig");
+        PekingDuck pekingDuck = new PekingDuck("Peking Duck");
+
         sleepCow.sound();
         firstDuck.sound();
+        secondDuck.sound();
+        firstOwl.sound();
+        firstPig.sound();
+        pekingDuck.sound();
+
+        firstDuck.fly();
+        firstDuck.glide();
         firstDuck.clean(sleepCow);
-        firstDuck.clean(secondDuck);
-        secondDuck.clean(firstDuck);
-        firsOwl.sound();
-        firsPig.sound();
+
+        pekingDuck.clean(firstDuck);
+        pekingDuck.pekingDuck();
+        pekingDuck.beCrispy();
     }
 }
